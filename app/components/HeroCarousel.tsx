@@ -10,9 +10,9 @@ import { NavLink } from "react-router";
 const slides = [
   {
     id: 1,
-    title: "Endüstriyel Üretimde Güvenilir Çözümler",
-    text: "Modern üretim teknolojileriyle ihtiyaçlarınıza özel çözümler sunuyoruz.",
-    image: "/images/premium_photo-1661811696984-e16d3d9f4ec2.avif",
+    title: "Fabrikalar İçin Anahtar Teslim Projeler",
+    text: "Planlama, kurulum ve entegrasyon süreçlerinde profesyonel destek.",
+    image: "/images/anahtar.jpg", // ✔ anahtar teslim resmi
   },
   {
     id: 2,
@@ -28,15 +28,15 @@ const slides = [
   },
   {
     id: 4,
-    title: "Fabrikalar İçin Anahtar Teslim Projeler",
-    text: "Planlama, kurulum ve entegrasyon süreçlerinde profesyonel destek.",
-    image: "/images/photo-1524514587686-e2909d726e9b",
+    title: "Endüstriyel Üretimde Güvenilir Çözümler",
+    text: "Modern üretim teknolojileriyle ihtiyaçlarınıza özel çözümler sunuyoruz.",
+    image: "/images/premium_photo-1661811696984-e16d3d9f4ec2.avif",
   },
   {
     id: 5,
     title: "Endüstriyel Bakım & Onarım Hizmetleri",
     text: "Arıza durumlarında hızlı müdahale, kesintisiz üretim.",
-    image: "/images/photo-1524514587686-e2909d726e9b",
+    image: "/images/bakim.jpg", // ✔ bakım onarım resmi
   },
 ];
 
