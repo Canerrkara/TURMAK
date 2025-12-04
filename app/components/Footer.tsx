@@ -32,9 +32,9 @@ return (
 
         <div>
             <h3 className="text-lg font-semibold mb-2 mt-10">İletişim</h3>
-            <p className="text-gray-200">Adres: Örnek Mah. 123. Sokak No: 45</p>
-          <p className="text-gray-200 mt-2">Telefon: +90 555 555 55 55</p>
-          <p className="text-gray-200 mt-2">Email: info@sirket.com</p>
+            <p className="text-gray-200">Adres: Sanayi Mahallesi, 60214 Nolu Cadde No: 15 27100 Şehitkamil / Gaziantep</p>
+          <p className="text-gray-200 mt-2">Telefon: +90 05458262928</p>
+          <p className="text-gray-200 mt-2">Email: info@turmak.com</p>
         </div>
     </div>
 

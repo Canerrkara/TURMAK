@@ -12,7 +12,7 @@ const slides = [
     id: 1,
     title: "Fabrikalar İçin Anahtar Teslim Projeler",
     text: "Planlama, kurulum ve entegrasyon süreçlerinde profesyonel destek.",
-    image: "/images/anahtar.jpg", // ✔ anahtar teslim resmi
+    image: "/images/anahtar.jpg",
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const slides = [
     id: 5,
     title: "Endüstriyel Bakım & Onarım Hizmetleri",
     text: "Arıza durumlarında hızlı müdahale, kesintisiz üretim.",
-    image: "/images/bakim.jpg", // ✔ bakım onarım resmi
+    image: "/images/bakim.jpg",
   },
 ];
 
@@ -67,6 +67,7 @@ export default function HeroCarousel() {
                   <h2 className="text-5xl md:text-6xl font-bold drop-shadow-lg">
                     {slide.title}
                   </h2>
+
                   <p className="mt-4 text-xl max-w-xl drop-shadow-md">
                     {slide.text}
                   </p>

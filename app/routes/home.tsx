@@ -49,22 +49,28 @@ export default function HomePage() {
 </section>
 
 
-      {/* İLETİŞİM CTA */}
-      <section className="bg-secondary py-20">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-dark">Bizimle İletişime Geçin</h2>
-          <p className="mt-4 text-muted">
-            Profesyonel çözümler için iletişime geçmekten çekinmeyin.
-          </p>
+    {/* İLETİŞİM CTA */}
+<section className="bg-white py-20">
+  <div className="container mx-auto px-4 text-center">
 
-          <a
-            href="/iletisim"
-            className="mt-6 inline-block px-8 py-3 bg-primary text-white rounded shadow hover:opacity-90 transition"
-          >
-            İletişime Geç
-          </a>
-        </div>
-      </section>
-    </>
+    <p className="text-3xl font-bold text-gray-900">
+      Çözümlerimiz hakkında bilgi almak ister misiniz?
+    </p>
+
+    <p className="mt-4 text-gray-600">
+      Ekibimiz en kısa sürede size dönüş sağlayacaktır.
+    </p>
+
+    <a
+      href="/iletisim"
+      className="mt-8 inline-block px-10 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow hover:bg-blue-700 transition"
+    >
+      İletişime Geç
+    </a>
+
+  </div>
+</section>
+
+ </>
   );
 }
